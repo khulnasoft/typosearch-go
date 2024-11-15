@@ -4,13 +4,9 @@ on:
   push:
     paths-ignore:
       - '**/*.md'
-    branches:
-      - typosearch-go
   pull_request:
     paths-ignore:
       - '**/*.md'
-    branches:
-      - typosearch-go
 
 jobs:
   test:
